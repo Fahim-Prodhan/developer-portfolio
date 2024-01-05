@@ -28,7 +28,7 @@ header nav {
   margin: 0 220px;
 }
 
-header h3 {
+header .nav-logo {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
@@ -54,5 +54,47 @@ nav a {
 
 /* Header Section */
 header {
-    background: #FFF8F3;
+  background: #fff8f3;
+  background-image: url("/images/header_bg.png"),url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+}
+
+.head-text {
+  margin-left: 220px;
+  display: flex;
+}
+
+.head-content > h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.head-content > h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.head-content > p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 585px;
+}
+
+.contact-btn {
+  background-color: none;
+  border: 2px solid #fd6e0a;
+  padding: 18px 35px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fd6e0a;
+  text-align: center;
+  margin-left: 5px;
+
 }
