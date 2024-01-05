@@ -52,7 +52,7 @@ nav ul {
   display: flex;
   text-decoration: none;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 nav li {
@@ -173,9 +173,54 @@ header {
 }
 
 .skills-description {
-    color:  #757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px; 
-padding: 3px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 3px;
+}
+
+/* Resume Section */
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.block {
+  display: block;
+}
+
+.resume-head {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-location {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.resume-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.cv {
+    text-align: center;
+    margin: 50px 0;
+}
+
+hr {
+    margin-right: 20px;
 }
